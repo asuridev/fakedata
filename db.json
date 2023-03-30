@@ -1,5 +1,6 @@
 {
-  "refundMethods": [
+  "response":{
+    "refundMethods": [
     {
       "id":"asd25252",
       "refundType": "VOUCHER",
@@ -159,4 +160,5 @@
       ]
     }
   ]
+  }
 }
