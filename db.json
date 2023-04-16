@@ -117,7 +117,7 @@
     },
     {
       "id":"asd282828",
-      "refundType": "TRANSFER",
+      "refundType": "TRANSFERENCE",
       "title":"Transferencia",
       "total":500000,
       "currency":"COP",
@@ -139,7 +139,7 @@
     },
     {
       "id":"asd555555",
-      "refundType": "TRANSFER",
+      "refundType": "TRANSFERENCE",
       "title":"Transferencia",
       "total":100000,
       "currency":"COP",
