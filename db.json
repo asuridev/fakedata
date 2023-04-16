@@ -9,8 +9,8 @@
       "total":1000000,
       "currency":"COP",
       "description":"Recibe en 3 días o menos la totalidad de tu reembolso en un voucher que puedes usar en un nuevo viaje. Tienes 1 año para usarlo.",
-      "imageDesktop": "https://i.postimg.cc/SxyL5vRR/100-reembolso-voucher-desktop-1.jpg",
-      "imageMobile": "https://i.postimg.cc/x8DMPsB0/100-reembolso-voucher-mobile-1.jpg",
+      "imageDesktop": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-desktop-es.png",
+      "imageMobile": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-mobile-es.png",
       "show":true,
       "options": [
         {
