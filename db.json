@@ -1,212 +1,194 @@
 {
-  "response":{
+  "response": {
     "refundMethods": [
-    {
-      "id":"asd25252",
-      "refundType": "VOUCHER",
-      "colorTitle": "#ff0091",
-      "title":"Voucher",
-      "total":1000000,
-      "currency":"COP",
-      "description":"Recibe en 3 días o menos la totalidad de tu reembolso en un voucher que puedes usar en un nuevo viaje. Tienes 1 año para usarlo.",
-      "imageDesktop": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-desktop-es.png",
-      "imageMobile": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-mobile-es.png",
-      "show":true,
-      "options": [
-        {
-          "text": "Quiero mi retracto en voucher",
-          "order": 1
-        }
-      ]
-    },
-    {
-      "id":"asd76564",
-      "refundType": "VOUCHER",
-      "colorTitle": "#00ff00",
-      "title":"Voucher",
-      "total":2000,
-      "currency":"USD",
-      "description":"Recibe en 3 días o menos la totalidad de tu reembolso en un voucher que puedes usar en un nuevo viaje. Tienes 1 año para usarlo.",
-      "imageDesktop": "https://i.postimg.cc/SxyL5vRR/100-reembolso-voucher-desktop-1.jpg",
-      "imageMobile": "https://i.postimg.cc/x8DMPsB0/100-reembolso-voucher-mobile-1.jpg",
-      "show":true,
-      "options": [
-        {
-          "text": "pagame en voucher....",
-          "order": 1
-        }
-      ]
-    },
-    {
-      "id":"asd454547",
-      "refundType": "CREDIT_CARD",
-      "title":"Tarjeta de crédito terminada en 4444",
-      "total":400000,
-      "currency":"COP",
-      "colorTitle": "#63C",
-      "description":"Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.  ",
-      "imageDesktop": "",
-      "imageMobile": "",
-      "show":true,
-      "options": [
-        {
-          "text": "Mi Tarjeta de Crédito terminada en 4444 se encuentra cancelada",
-          "order": 1,
-          "documents": [
-                        {
-                            "isRequired": true,
-                            "title": "Documento Consanguinidad",
-                            "description": "Documento que certifique grado de consanguinidad",
-                            "fileName": "Consanguinidad"
-                        },
-                        {
-                            "isRequired": true,
-                            "title": "Certificado Incapacidad para volar",
-                            "description": "Certificado de incapacidad para volar",
-                            "fileName": "Incapacidad para volar"
-                        }
-                    ]
-        },
-        {
-          "text": "Reembolso en tarjeta de crédito terminada en 4444",
-          "order": 2,
-          "documents": []
-        },
-        {
-          "text": "Reembolsar en voucher",
-          "order": 3,
-          "documents": []
-        }
-      ]
-    },
-    {
-      "id":"asd262625",
-      "refundType": "CREDIT_CARD",
-      "title":"Tarjeta de crédito terminada en 1111",
-      "total":500,
-      "currency":"USD",
-      "colorTitle": "#63C",
-      "description":"Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.",
-      "imageDesktop": "",
-      "imageMobile": "",
-      "show":true,
-      "options": [
-        {
-          "text": "Mi Tarjeta de Crédito terminada en 1111 se encuentra cancelada",
-          "order": 1,
-          "documents": [
-                        {
-                            "isRequired": true,
-                            "title": "Documento Consanguinidad",
-                            "description": "Documento que certifique grado de consanguinidad",
-                            "fileName": "Consanguinidad"
-                        },
-                        {
-                            "isRequired": true,
-                            "title": "Certificado Incapacidad para volar",
-                            "description": "Certificado de incapacidad para volar",
-                            "fileName": "Incapacidad para volar"
-                        }
-                    ]
-        },
-        {
-          "text": "Reembolso en tarjeta de crédito terminada en 1111",
-          "order": 2,
-          "documents": []
-        },
-        {
-          "text": "Reembolsar en voucher",
-          "order": 3,
-          "documents": []
-        }
-      ]
-    },
-    {
-      "id":"asd247752",
-      "refundType": "CREDIT_CARD",
-      "title":"Tarjeta de crédito terminada en 9999",
-      "total":1500,
-      "currency":"USD",
-      "colorTitle": "#63C",
-      "description":"Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.",
-      "imageDesktop": "",
-      "imageMobile": "",
-      "show":true,
-      "options": [
-        {
-          "text": "Mi Tarjeta de Crédito terminada en 9999 se encuentra cancelada",
-          "order": 1,
-           "documents": [
-                        {
-                            "isRequired": true,
-                            "title": "Documento Consanguinidad",
-                            "description": "Documento que certifique grado de consanguinidad",
-                            "fileName": "Consanguinidad"
-                        },
-                        {
-                            "isRequired": true,
-                            "title": "Certificado Incapacidad para volar",
-                            "description": "Certificado de incapacidad para volar",
-                            "fileName": "Incapacidad para volar"
-                        }
-                    ]
-        },
-        {
-          "text": "Reembolso en tarjeta de crédito terminada en 9999",
-          "order": 2,
-          "documents": []
-        },
-        {
-          "text": "Reembolsar en voucher",
-          "order": 3,
-          "documents": []
-        }
-      ]
-    },
-    {
-      "id":"asd282828",
-      "refundType": "TRANSFERENCE",
-      "title":"Transferencia",
-      "total":500000,
-      "currency":"COP",
-      "colorTitle": "#63C",
-      "description":"Realizaremos el reembolso a la cuenta bancaria que nos relaciones. Por favor anexa toda la documentación para evitar inconvenientes. Podrás ver reflejado tu pago en los próximos 30 días.",
-      "imageDesktop": "",
-      "imageMobile": "",
-      "show":true,
-      "options": [
-        {
-          "text": "Reembolso con una transferencia ",
-          "order": 1
-        },
-        {
-          "text": "Reembolso en voucher",
-          "order": 2
-        }
-      ]
-    },
-    {
-      "id":"asd555555",
-      "refundType": "TRANSFERENCE",
-      "title":"Transferencia",
-      "total":100000,
-      "currency":"COP",
-      "colorTitle": "#63C",
-      "description":"Realizaremos el reembolso a la cuenta bancaria que nos relaciones. Por favor anexa toda la documentación para evitar inconvenientes. Podrás ver reflejado tu pago en los próximos 30 días.",
-      "imageDesktop": "",
-      "imageMobile": "",
-      "show":true,
-      "options": [
-        {
-          "text": "Reembolso con una transferencia ",
-          "order": 1
-        },
-        {
-          "text": "Reembolso en voucher",
-          "order": 2
-        }
-      ]
-    }
-  ]
+      {
+        "id": "asd25252",
+        "refundType": "VOUCHER",
+        "colorTitle": "#ff0091",
+        "title": "Voucher",
+        "total": 1000000,
+        "currency": "COP",
+        "description": "Recibe en 3 días o menos la totalidad de tu reembolso en un voucher que puedes usar en un nuevo viaje. Tienes 1 año para usarlo.",
+        "imageDesktop": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-desktop-es.png",
+        "imageMobile": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/imagen-voucher-mobile-es.png",
+        "show": true,
+        "options": [
+          {
+            "text": "Quiero mi retracto en voucher",
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "asd76564",
+        "refundType": "VOUCHER",
+        "colorTitle": "#00ff00",
+        "title": "Voucher",
+        "total": 2000,
+        "currency": "USD",
+        "description": "Recibe en 3 días o menos la totalidad de tu reembolso en un voucher que puedes usar en un nuevo viaje. Tienes 1 año para usarlo.",
+        "imageDesktop": "https://i.postimg.cc/SxyL5vRR/100-reembolso-voucher-desktop-1.jpg",
+        "imageMobile": "https://i.postimg.cc/x8DMPsB0/100-reembolso-voucher-mobile-1.jpg",
+        "show": true,
+        "options": [
+          {
+            "text": "pagame en voucher....",
+            "order": 1
+          }
+        ]
+      },
+      {
+        "id": "asd454547",
+        "refundType": "CREDIT_CARD",
+        "title": "Tarjeta de crédito terminada en 4444",
+        "total": 400000,
+        "currency": "COP",
+        "colorTitle": "#63C",
+        "description": "Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.  ",
+        "imageDesktop": "",
+        "imageMobile": "",
+        "show": true,
+        "options": [
+          {
+            "text": "Mi Tarjeta de Crédito terminada en 4444 se encuentra cancelada",
+            "order": 1,
+            "documents": [
+              {
+                "isRequired": true,
+                "title": "Certificación de Cancelación",
+                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                "fileName": "certificado"
+              }
+            ]
+          },
+          {
+            "text": "Reembolso en tarjeta de crédito terminada en 4444",
+            "order": 2,
+            "documents": []
+          },
+          {
+            "text": "Reembolsar en voucher",
+            "order": 3,
+            "documents": []
+          }
+        ]
+      },
+      {
+        "id": "asd262625",
+        "refundType": "CREDIT_CARD",
+        "title": "Tarjeta de crédito terminada en 1111",
+        "total": 500,
+        "currency": "USD",
+        "colorTitle": "#63C",
+        "description": "Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.",
+        "imageDesktop": "",
+        "imageMobile": "",
+        "show": true,
+        "options": [
+          {
+            "text": "Mi Tarjeta de Crédito terminada en 1111 se encuentra cancelada",
+            "order": 1,
+            "documents": [
+              {
+                "isRequired": true,
+                "title": "Certificación de Cancelación",
+                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                "fileName": "certificado"
+              }
+            ]
+          },
+          {
+            "text": "Reembolso en tarjeta de crédito terminada en 1111",
+            "order": 2,
+            "documents": []
+          },
+          {
+            "text": "Reembolsar en voucher",
+            "order": 3,
+            "documents": []
+          }
+        ]
+      },
+      {
+        "id": "asd247752",
+        "refundType": "CREDIT_CARD",
+        "title": "Tarjeta de crédito terminada en 9999",
+        "total": 1500,
+        "currency": "USD",
+        "colorTitle": "#63C",
+        "description": "Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.",
+        "imageDesktop": "",
+        "imageMobile": "",
+        "show": true,
+        "options": [
+          {
+            "text": "Mi Tarjeta de Crédito terminada en 9999 se encuentra cancelada",
+            "order": 1,
+            "documents": [
+              {
+                "isRequired": true,
+                "title": "Certificación de Cancelación",
+                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                "fileName": "certificado"
+              }
+            ]
+          },
+          {
+            "text": "Reembolso en tarjeta de crédito terminada en 9999",
+            "order": 2,
+            "documents": []
+          },
+          {
+            "text": "Reembolsar en voucher",
+            "order": 3,
+            "documents": []
+          }
+        ]
+      },
+      {
+        "id": "asd282828",
+        "refundType": "TRANSFERENCE",
+        "title": "Transferencia",
+        "total": 500000,
+        "currency": "COP",
+        "colorTitle": "#63C",
+        "description": "Realizaremos el reembolso a la cuenta bancaria que nos relaciones. Por favor anexa toda la documentación para evitar inconvenientes. Podrás ver reflejado tu pago en los próximos 30 días.",
+        "imageDesktop": "",
+        "imageMobile": "",
+        "show": true,
+        "options": [
+          {
+            "text": "Reembolso con una transferencia ",
+            "order": 1
+          },
+          {
+            "text": "Reembolso en voucher",
+            "order": 2
+          }
+        ]
+      },
+      {
+        "id": "asd555555",
+        "refundType": "TRANSFERENCE",
+        "title": "Transferencia",
+        "total": 100000,
+        "currency": "COP",
+        "colorTitle": "#63C",
+        "description": "Realizaremos el reembolso a la cuenta bancaria que nos relaciones. Por favor anexa toda la documentación para evitar inconvenientes. Podrás ver reflejado tu pago en los próximos 30 días.",
+        "imageDesktop": "",
+        "imageMobile": "",
+        "show": true,
+        "options": [
+          {
+            "text": "Reembolso con una transferencia ",
+            "order": 1
+          },
+          {
+            "text": "Reembolso en voucher",
+            "order": 2
+          }
+        ]
+      }
+    ]
   }
 }
