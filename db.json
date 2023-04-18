@@ -168,7 +168,7 @@
                 "fileName": "authorization"
               },
               {
-                "isRequired": true,
+                "isRequired": false,
                 "title": "Certificación de Cancelación",
                 "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                 "fileName": "accountCertification"
