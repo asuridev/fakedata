@@ -49,18 +49,18 @@
         "imageMobile": "",
         "show": true,
         "options": [
-          {
-            "text": "Mi Tarjeta de Crédito terminada en 4444 se encuentra cancelada",
-            "order": 1,
-            "documents": [
-              {
-                "isRequired": true,
-                "title": "Certificación de Cancelación",
-                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                "fileName": "certificado"
-              }
-            ]
-          },
+            {
+              "text": "Mi Tarjeta de Crédito terminada en 4444 se encuentra cancelada",
+              "order": 1,
+              "documents": [
+                {
+                  "isRequired": true,
+                  "title": "Certificación de Cancelación",
+                  "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                  "fileName": "certificado"
+                }
+              ]
+            },
           {
             "text": "Reembolso en tarjeta de crédito terminada en 4444",
             "order": 2,
@@ -159,11 +159,32 @@
         "options": [
           {
             "text": "Reembolso con una transferencia ",
-            "order": 1
+            "order": 1,
+            "documents": [
+              {
+                "isRequired": true,
+                "title": "Certificación de Cancelación",
+                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                "fileName": "authorization"
+              },
+              {
+                "isRequired": true,
+                "title": "Certificación de Cancelación",
+                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                "fileName": "accountCertification"
+              },
+              {
+                "isRequired": true,
+                "title": "Certificación de Cancelación",
+                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                "fileName": "idDocument"
+              }
+            ]
           },
           {
             "text": "Reembolso en voucher",
-            "order": 2
+            "order": 2,
+            "documents":[]
           }
         ]
       },
@@ -181,14 +202,36 @@
         "options": [
           {
             "text": "Reembolso con una transferencia ",
-            "order": 1
+            "order": 1,
+            "documents": [
+              {
+                "isRequired": true,
+                "title": "Certificación de Cancelación",
+                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                "fileName": "authorization"
+              },
+              {
+                "isRequired": true,
+                "title": "Certificación de Cancelación",
+                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                "fileName": "accountCertification"
+              },
+              {
+                "isRequired": true,
+                "title": "Certificación de Cancelación",
+                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
+                "fileName": "idDocument"
+              }
+            ]
           },
           {
             "text": "Reembolso en voucher",
-            "order": 2
+            "order": 2,
+            "documents":[]
           }
         ]
       }
     ]
   }
 }
+
