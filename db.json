@@ -54,7 +54,7 @@
               "order": 1,
               "documents": [
                 {
-                  "isRequired": true,
+                  "required": true,
                   "title": "Certificación de Cancelación",
                   "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                   "fileName": "certificado"
@@ -90,7 +90,7 @@
             "order": 1,
             "documents": [
               {
-                "isRequired": false,
+                "required": false,
                 "title": "Certificación de Cancelación",
                 "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                 "fileName": "certificado"
@@ -126,7 +126,7 @@
             "order": 1,
             "documents": [
               {
-                "isRequired": true,
+                "required": true,
                 "title": "Certificación de Cancelación",
                 "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                 "fileName": "certificado"
@@ -162,19 +162,19 @@
             "order": 1,
             "documents": [
               {
-                "isRequired": true,
+                "required": true,
                 "title": "Certificación de Cancelación",
                 "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                 "fileName": "authorization"
               },
               {
-                "isRequired": false,
+                "required": false,
                 "title": "Certificación de Cancelación",
                 "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                 "fileName": "accountCertification"
               },
               {
-                "isRequired": true,
+                "required": true,
                 "title": "Certificación de Cancelación",
                 "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                 "fileName": "idDocument"
@@ -205,19 +205,19 @@
             "order": 1,
             "documents": [
               {
-                "isRequired": true,
+                "required": true,
                 "title": "Certificación de Cancelación",
                 "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                 "fileName": "authorization"
               },
               {
-                "isRequired": true,
+                "required": true,
                 "title": "Certificación de Cancelación",
                 "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                 "fileName": "accountCertification"
               },
               {
-                "isRequired": true,
+                "required": true,
                 "title": "Certificación de Cancelación",
                 "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
                 "fileName": "idDocument"
