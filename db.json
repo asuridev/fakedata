@@ -70,52 +70,6 @@
         ]
       },
       {
-        "id": "7b4d1f74-0e08-4b2e-9604-1ceaaef4c123",
-        "refundType": "TRANSFERENCE",
-        "colorTitle": "#6633CC",
-        "title": "Transferencia",
-        "total": 100000,
-        "totalPayment": null,
-        "currency": "COP",
-        "description": "Realizaremos el reembolso a la cuenta bancaria que nos relaciones. Por favor anexa toda la documentación para evitar inconvenientes. Podrás ver reflejado tu pago en los próximos 30 días.",
-        "imageDesktop": null,
-        "imageMobile": null,
-        "show": true,
-        "options": [
-          {
-            "text": "Reembolso con una transferencia",
-            "order": 1,
-            "documents": [
-              {
-                "title": "Certificación de cuenta:",
-                "description": "En caso que el beneficiario del reembolso no sea el mismo pagador, envíe la certificación bancaria del beneficiario del pago. El certificado debe tener: nombre del beneficiario, número de cédula, número de cuenta y nombre de la entidad con una vigencia inferior a 90 días.",
-                "fileName": "AccountCertification",
-                "required": true
-              },
-              {
-                "title": "Carta de autorización:",
-                "description": "En caso que el beneficiario del reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador.",
-                "fileName": "Authorization",
-                "required": true
-              },
-              {
-                "title": "Documento de identificación:",
-                "description": "En caso que el beneficiario del reembolso no sea el mismo pagador.",
-                "fileName": "idDocument",
-                "required": true
-              }
-            ]
-          },
-          {
-            "text": "Reembolso en voucher",
-            "order": 2,
-            "documents": [
-              
-            ]
-          }
-        ]
-      },
-      {
         "id": "6029ba6a-80a4-455b-b6e4-8262619c9638",
         "refundType": "CREDIT_CARD",
         "colorTitle": "#6633CC",
