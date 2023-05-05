@@ -2,236 +2,322 @@
   "response": {
     "refundMethods": [
       {
-        "id": "asd25252",
+        "id": "31694424-b77e-413c-a85a-4b0708a40dba",
         "refundType": "VOUCHER",
-        "colorTitle": "#ff0091",
+        "colorTitle": "#FF0093",
         "title": "Voucher",
-        "total": 1000000,
+        "total": 587957,
+        "totalPayment": 0,
         "currency": "COP",
         "description": "Recibe en 3 días o menos la totalidad de tu reembolso en un voucher que puedes usar en un nuevo viaje. Tienes 1 año para usarlo.",
-        "imageDesktop": "https://i.postimg.cc/SxyL5vRR/100-reembolso-voucher-desktop-1.jpg",
-        "imageMobile": "https://i.postimg.cc/x8DMPsB0/100-reembolso-voucher-mobile-1.jpg",
+        "imageDesktop": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/100-reembolso-es-voucher-desktop.jpg",
+        "imageMobile": "https://storage.googleapis.com/gcp-wingo-pro-public/images/refunds/100-reembolso-voucher-es-mobile.jpg",
         "show": true,
         "options": [
           {
-            "text": "Quiero mi retracto en voucher",
-            "order": 1
+            "text": "Quiero mi retracto con voucher",
+            "order": 1,
+            "documents": [
+              
+            ]
           }
         ]
       },
       {
-        "id": "asd76564",
-        "refundType": "VOUCHER",
-        "colorTitle": "#00ff00",
-        "title": "Voucher",
-        "total": 2000,
-        "currency": "USD",
-        "description": "Recibe en 3 días o menos la totalidad de tu reembolso en un voucher que puedes usar en un nuevo viaje. Tienes 1 año para usarlo.",
-        "imageDesktop": "https://i.postimg.cc/SxyL5vRR/100-reembolso-voucher-desktop-1.jpg",
-        "imageMobile": "https://i.postimg.cc/x8DMPsB0/100-reembolso-voucher-mobile-1.jpg",
-        "show": true,
-        "options": [
-          {
-            "text": "pagame en voucher....",
-            "order": 1
-          }
-        ]
-      },
-      {
-        "id": "asd454547",
-        "refundType": "CREDIT_CARD",
-        "title": "Tarjeta de crédito terminada en 4444",
-        "total": 500000,
+        "id": "7b4d1f74-0e08-4b2e-9604-1ceaaef4c709",
+        "refundType": "TRANSFERENCE",
+        "colorTitle": "#6633CC",
+        "title": "Transferencia",
+        "total": 0,
+        "totalPayment": null,
         "currency": "COP",
-        "colorTitle": "#63C",
-        "description": "Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.  ",
-        "imageDesktop": "",
-        "imageMobile": "",
-        "show": true,
+        "description": "Realizaremos el reembolso a la cuenta bancaria que nos relaciones. Por favor anexa toda la documentación para evitar inconvenientes. Podrás ver reflejado tu pago en los próximos 30 días.",
+        "imageDesktop": null,
+        "imageMobile": null,
+        "show": false,
         "options": [
-            {
-              "text": "Mi Tarjeta de Crédito terminada en 4444 se encuentra cancelada",
-              "order": 1,
-              "documents": [
-                {
-                  "required": true,
-                  "title": "Certificación de Cancelación",
-                  "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                  "fileName": "certificado"
-                }
-              ]
-            },
           {
-            "text": "Reembolso en tarjeta de crédito terminada en 4444",
-            "order": 2,
-            "documents": []
+            "text": "Reembolso con una transferencia",
+            "order": 1,
+            "documents": [
+              {
+                "title": "Certificación de cuenta:",
+                "description": "En caso que el beneficiario del reembolso no sea el mismo pagador, envíe la certificación bancaria del beneficiario del pago. El certificado debe tener: nombre del beneficiario, número de cédula, número de cuenta y nombre de la entidad con una vigencia inferior a 90 días.",
+                "fileName": "AccountCertification",
+                "required": true
+              },
+              {
+                "title": "Carta de autorización:",
+                "description": "En caso que el beneficiario del reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador.",
+                "fileName": "Authorization",
+                "required": true
+              },
+              {
+                "title": "Documento de identificación:",
+                "description": "En caso que el beneficiario del reembolso no sea el mismo pagador.",
+                "fileName": "idDocument",
+                "required": true
+              }
+            ]
           },
           {
-            "text": "Reembolsar en voucher",
-            "order": 3,
-            "documents": []
+            "text": "Reembolso en voucher",
+            "order": 2,
+            "documents": [
+              
+            ]
           }
         ]
       },
       {
-        "id": "asd262625",
+        "id": "6029ba6a-80a4-455b-b6e4-8262619c9638",
         "refundType": "CREDIT_CARD",
+        "colorTitle": "#6633CC",
         "title": "Tarjeta de crédito terminada en 1111",
-        "total": 500,
-        "currency": "USD",
-        "colorTitle": "#63C",
+        "total": 587957,
+        "totalPayment": null,
+        "currency": "COP",
         "description": "Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.",
-        "imageDesktop": "",
-        "imageMobile": "",
+        "imageDesktop": "Hola",
+        "imageMobile": null,
         "show": true,
         "options": [
+          {
+            "text": "Reembolso en tarjeta de crédito terminada en 1111",
+            "order": 2,
+            "documents": [
+              
+            ]
+          },
           {
             "text": "Mi Tarjeta de Crédito terminada en 1111 se encuentra cancelada",
             "order": 1,
             "documents": [
               {
-                "required": false,
-                "title": "Certificación de Cancelación",
-                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                "fileName": "certificado"
+                "title": "Certificación de cancelación",
+                "description": "En caso que el beneficiario del reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador.",
+                "fileName": "CancellationCertificate",
+                "required": true
               }
             ]
-          },
-          {
-            "text": "Reembolso en tarjeta de crédito terminada en 1111",
-            "order": 2,
-            "documents": []
           },
           {
             "text": "Reembolsar en voucher",
             "order": 3,
-            "documents": []
+            "documents": [
+              
+            ]
           }
         ]
+      }
+    ],
+    "identificationTypes": [
+      {
+        "description": "Cédula de ciudadanía",
+        "id": "CC"
       },
       {
-        "id": "asd247752",
-        "refundType": "CREDIT_CARD",
-        "title": "Tarjeta de crédito terminada en 9999",
-        "total": 500,
-        "currency": "USD",
-        "colorTitle": "#63C",
-        "description": "Realizaremos el reembolso a la tarjeta de crédito de tu compra en los próximos 30 días. Los tiempos que toma la entidad financiera para el abono no son responsabilidad de Wingo.",
-        "imageDesktop": "",
-        "imageMobile": "",
-        "show": true,
-        "options": [
-          {
-            "text": "Mi Tarjeta de Crédito terminada en 9999 se encuentra cancelada",
-            "order": 1,
-            "documents": [
-              {
-                "required": true,
-                "title": "Certificación de Cancelación",
-                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                "fileName": "certificado"
-              }
-            ]
-          },
-          {
-            "text": "Reembolso en tarjeta de crédito terminada en 9999",
-            "order": 2,
-            "documents": []
-          },
-          {
-            "text": "Reembolsar en voucher",
-            "order": 3,
-            "documents": []
-          }
-        ]
+        "description": "Cédula de extranjería",
+        "id": "CE"
       },
       {
-        "id": "asd282828",
-        "refundType": "TRANSFERENCE",
-        "title": "Transferencia",
-        "total": 500000,
-        "currency": "COP",
-        "colorTitle": "#63C",
-        "description": "Realizaremos el reembolso a la cuenta bancaria que nos relaciones. Por favor anexa toda la documentación para evitar inconvenientes. Podrás ver reflejado tu pago en los próximos 30 días.",
-        "imageDesktop": "",
-        "imageMobile": "",
-        "show": true,
-        "options": [
-          {
-            "text": "Reembolso con una transferencia ",
-            "order": 1,
-            "documents": [
-              {
-                "required": true,
-                "title": "Certificación de Cancelación",
-                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                "fileName": "authorization"
-              },
-              {
-                "required": false,
-                "title": "Certificación de Cancelación",
-                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                "fileName": "accountCertification"
-              },
-              {
-                "required": true,
-                "title": "Certificación de Cancelación",
-                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                "fileName": "idDocument"
-              }
-            ]
-          },
-          {
-            "text": "Reembolso en voucher",
-            "order": 2,
-            "documents":[]
-          }
-        ]
+        "description": "Número de identificación tributario",
+        "id": "NIT"
       },
       {
-        "id": "asd555555",
-        "refundType": "TRANSFERENCE",
-        "title": "Transferencia",
-        "total": 1000,
-        "currency": "USD",
-        "colorTitle": "#63C",
-        "description": "Realizaremos el reembolso a la cuenta bancaria que nos relaciones. Por favor anexa toda la documentación para evitar inconvenientes. Podrás ver reflejado tu pago en los próximos 30 días.",
-        "imageDesktop": "",
-        "imageMobile": "",
-        "show": true,
-        "options": [
-          {
-            "text": "Reembolso con una transferencia ",
-            "order": 1,
-            "documents": [
-              {
-                "required": true,
-                "title": "Certificación de Cancelación",
-                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                "fileName": "authorization"
-              },
-              {
-                "required": true,
-                "title": "Certificación de Cancelación",
-                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                "fileName": "accountCertification"
-              },
-              {
-                "required": true,
-                "title": "Certificación de Cancelación",
-                "description": "En caso que el beneficiario de reembolso no sea el mismo pagador se debe adjuntar carta firmada del pagador",
-                "fileName": "idDocument"
-              }
-            ]
-          },
-          {
-            "text": "Reembolso en voucher",
-            "order": 2,
-            "documents":[]
-          }
-        ]
+        "description": "Tarjeta de identidad",
+        "id": "TI"
+      },
+      {
+        "description": "Pasaporte",
+        "id": "PP"
+      },
+      {
+        "description": "Identificador único de cliente, para el caso de IDs únicos de clientes/usuarios de servicios públicos",
+        "id": "IDC"
+      },
+      {
+        "description": "Registro civil de nacimiento",
+        "id": "RC"
+      },
+      {
+        "description": "Documento de identificación extranjero",
+        "id": "DE"
+      }
+    ],
+    "paymentBanks": [
+      {
+        "code": "0",
+        "name": "A continuación seleccione su banco"
+      },
+      {
+        "code": "1552",
+        "name": "BAN.CO"
+      },
+      {
+        "code": "1040",
+        "name": "BANCO AGRARIO"
+      },
+      {
+        "code": "1081",
+        "name": "BANCO AGRARIO DESARROLLO"
+      },
+      {
+        "code": "1080",
+        "name": "BANCO AGRARIO QA DEFECTOS"
+      },
+      {
+        "code": "10322",
+        "name": "BANCO CAJA SOCIAL"
+      },
+      {
+        "code": "1032",
+        "name": "BANCO CAJA SOCIAL DESARROLLO"
+      },
+      {
+        "code": "1019",
+        "name": "BANCO COLPATRIA DESARROLLO"
+      },
+      {
+        "code": "1078",
+        "name": "BANCO COLPATRIA UAT"
+      },
+      {
+        "code": "1052",
+        "name": "BANCO COMERCIAL AVVILLAS S.A."
+      },
+      {
+        "code": "1061",
+        "name": "BANCO COOMEVA S.A. - BANCOOMEVA"
+      },
+      {
+        "code": "1016",
+        "name": "BANCO COOPERATIVO COOPCENTRAL"
+      },
+      {
+        "code": "1051",
+        "name": "BANCO DAVIVIENDA"
+      },
+      {
+        "code": "10512",
+        "name": "BANCO DAVIVIENDA Desarrollo"
+      },
+      {
+        "code": "1039",
+        "name": "BANCO DE BOGOTA"
+      },
+      {
+        "code": "1001",
+        "name": "BANCO DE BOGOTA DESARROLLO 2013"
+      },
+      {
+        "code": "1023",
+        "name": "BANCO DE OCCIDENTE"
+      },
+      {
+        "code": "1062",
+        "name": "BANCO FALABELLA"
+      },
+      {
+        "code": "1010",
+        "name": "BANCO GNB COLOMBIA (ANTES HSBC)"
+      },
+      {
+        "code": "1012",
+        "name": "BANCO GNB SUDAMERIS"
+      },
+      {
+        "code": "1060",
+        "name": "BANCO PICHINCHA S.A."
+      },
+      {
+        "code": "1002",
+        "name": "BANCO POPULAR"
+      },
+      {
+        "code": "1058",
+        "name": "BANCO PROCREDIT COLOMBIA"
+      },
+      {
+        "code": "1203",
+        "name": "BANCO PRODUCTOS POR SEPARADO"
+      },
+      {
+        "code": "1101",
+        "name": "Banco PSE"
+      },
+      {
+        "code": "1065",
+        "name": "BANCO SANTANDER COLOMBIA"
+      },
+      {
+        "code": "1063",
+        "name": "Banco Serfinanza"
+      },
+      {
+        "code": "1035",
+        "name": "BANCO TEQUENDAMA"
+      },
+      {
+        "code": "1004",
+        "name": "Banco union Colombia Credito"
+      },
+      {
+        "code": "1005",
+        "name": "Banco union Colombia credito FD"
+      },
+      {
+        "code": "1022",
+        "name": "BANCO UNION COLOMBIANO"
+      },
+      {
+        "code": "1055",
+        "name": "Banco Web Service ACH"
+      },
+      {
+        "code": "1055",
+        "name": "Banco Web Service ACH WSE 3.0"
+      },
+      {
+        "code": "10072",
+        "name": "BANCOLOMBIA DATAPOWER"
+      },
+      {
+        "code": "10071",
+        "name": "BANCOLOMBIA DESARROLLO"
+      },
+      {
+        "code": "1007",
+        "name": "BANCOLOMBIA QA"
+      },
+      {
+        "code": "1013",
+        "name": "BBVA COLOMBIA S.A."
+      },
+      {
+        "code": "1009",
+        "name": "CITIBANK COLOMBIA S.A."
+      },
+      {
+        "code": "1292",
+        "name": "CONFIAR COOPERATIVA FINANCIERA"
+      },
+      {
+        "code": "1551",
+        "name": "DAVIPLATA"
+      },
+      {
+        "code": "1006",
+        "name": "ITAU"
+      },
+      {
+        "code": "1508",
+        "name": "NEQUI CERTIFICACION"
+      },
+      {
+        "code": "121212",
+        "name": "Prueba Steve"
       }
     ]
   }
 }
-
